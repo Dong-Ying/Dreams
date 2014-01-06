@@ -53,7 +53,7 @@ p {
     background-image: url("images/happy.jpg") ;
 }
 
-.step-overview .step {
+.impress-on-overview .step {
     cursor: pointer;
 }
 
@@ -61,14 +61,19 @@ p {
     display: none;
 }
 
+#impress div {
+    margin: 20px auto;
+}
+
 .impress-not-supported .fallback-message {
     display: block;
-    font-size: 30px;
+    background: #EEDC94;
+
+    font-size: 20px;
     line-height: 2;
+
     width: 780px;
     padding: 10px 10px 0;
-    margin: 20px auto;
     border: 1px solid #E4C652;
     border-radius: 10px;
-    background: #EEDC94;
 }
