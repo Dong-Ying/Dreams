@@ -53,3 +53,6 @@ p {
     background-image: url("images/happy.jpg") ;
 }
 
+.step-overview .step {
+    cursor: pointer;
+}
